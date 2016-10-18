@@ -1,6 +1,6 @@
 {
   "name": "Unixstuff",
   "tagline": "My Unix notes",
-  "body": "### Placeholder for some Unix stuff that I use on a daily basis\r\n\r\n###Common \"find\" usage scenarios\r\n\r\n1) Search multiple directories\r\n\r\npwd> find dir1 dir2 -name \"*.txt\"\r\n\r\n2) find dir1 dir2 dir3 \\( -name \"*.xxx\" -o -name \"*.yyy\" \\)  -exec ls -lrt {} \\; | grep -i somename\r\n\r\nThis gives the full path of the files that you are searching for.",
+  "body": "### Placeholder for some Unix stuff that I use on a daily basis\r\n\r\n###Common \"find\" usage scenarios\r\n\r\n1) Search multiple directories\r\n\r\n    pwd> find dir1 dir2 -name \"*.txt\"\r\n\r\n2) This gives the full path of the files that you are searching for.\r\n\r\n    find dir1 dir2 dir3 \\( -name \"*.xxx\" -o -name \"*.yyy\" \\)  -exec ls -lrt {} \\; | grep -i somename\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

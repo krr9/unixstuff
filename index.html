@@ -27,11 +27,13 @@
 
 <p>1) Search multiple directories</p>
 
-<p>pwd&gt; find dir1 dir2 -name "*.txt"</p>
+<pre><code>pwd&gt; find dir1 dir2 -name "*.txt"
+</code></pre>
 
-<p>2) find dir1 dir2 dir3 ( -name "<em>.xxx" -o -name "</em>.yyy" )  -exec ls -lrt {} \; | grep -i somename</p>
+<p>2) This gives the full path of the files that you are searching for.</p>
 
-<p>This gives the full path of the files that you are searching for.</p>
+<pre><code>find dir1 dir2 dir3 \( -name "*.xxx" -o -name "*.yyy" \)  -exec ls -lrt {} \; | grep -i somename
+</code></pre>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/krr9/unixstuff">Unixstuff</a> is maintained by <a href="https://github.com/krr9">krr9</a>.</span>
