@@ -22,6 +22,17 @@
       <h3>
 <a id="placeholder-for-some-unix-stuff-that-i-use-on-a-daily-basis" class="anchor" href="#placeholder-for-some-unix-stuff-that-i-use-on-a-daily-basis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Placeholder for some Unix stuff that I use on a daily basis</h3>
 
+<h3>
+<a id="common-find-usage-scenarios" class="anchor" href="#common-find-usage-scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Common "find" usage scenarios</h3>
+
+<p>1) Search multiple directories</p>
+
+<p>pwd&gt; find dir1 dir2 -name "*.txt"</p>
+
+<p>2) find dir1 dir2 dir3 ( -name "<em>.xxx" -o -name "</em>.yyy" )  -exec ls -lrt {} \; | grep -i somename</p>
+
+<p>This gives the full path of the files that you are searching for.</p>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/krr9/unixstuff">Unixstuff</a> is maintained by <a href="https://github.com/krr9">krr9</a>.</span>
 
